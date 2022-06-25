@@ -1,0 +1,106 @@
+section{
+    height: 700px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    color:rgb(234, 16, 89) ;
+    font-size: 35px;
+}
+p{
+    color: rgb(78, 47, 255);
+    font-size: 20px;
+    
+}
+
+.section-h1{
+    background-image: url("pics/header-bg.png");
+    background-repeat: no-repeat;
+}
+.section-bio{
+    background-image: url("pics/biography-bg.png");
+    background-repeat: no-repeat;
+
+}
+.section-latest-work{
+    background-image: url("pics/latest-work-bg.png");
+    background-repeat: no-repeat;
+}
+.section-fotter{
+    background-image: url("pics/footer-bg.png");
+    background-repeat: no-repeat;
+}
+
+.half-width{
+    float: left;
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 15%;
+    padding: 10px;
+
+}
+.half-width img{
+    width: 100%;
+}
+.half-width1{
+    float: left;
+    width: 30%;
+    margin-left: 3%;
+    margin-left: 3%;
+    gap: 12px;
+   
+
+}
+.half-width1 img{
+    width: 100%;
+}
+.btn{
+    border: 1px solid;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    background-image: linear-gradient(30deg, rgb(236, 25, 232), rgb(237, 15, 85));
+    color: aliceblue;
+}
+
+.work-head{
+    text-align: center;
+}
+.work-head5{
+    text-align: center;
+    font-size: 16px;
+}
+.work-head1{
+    text-align: center;
+    color: gray;
+}
+.work-head-p{
+    text-align: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    justify-content: center;
+}
+
+.btn-email{
+    text-decoration: none;
+    color:aliceblue;
+    border: 1px solid;
+    background-color: hotpink;
+    padding: 10px;
+    margin: 30%;
+    margin-top: 90px;
+    border-radius: 8px;
+    font-size: 19px;
+    position: relative;
+}
+.btn-email-message{
+font-size: 10px;
+text-align: center;
+justify-content: center;
+position: absolute;
+padding: auto;
+}
+
+
+
