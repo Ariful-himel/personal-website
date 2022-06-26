@@ -53,6 +53,7 @@ p{
 }
 .half-width1 img{
     width: 100%;
+    height: auto;
 }
 .btn{
     border: 1px solid;
@@ -81,25 +82,55 @@ p{
     font-size: 1rem;
     justify-content: center;
 }
+.half-widt a{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+}
 
 .btn-email{
     text-decoration: none;
     color:aliceblue;
     border: 1px solid;
     background-color: hotpink;
-    padding: 10px;
-    margin: 30%;
-    margin-top: 90px;
-    border-radius: 8px;
+   
     font-size: 19px;
     position: relative;
 }
-.btn-email-message{
-font-size: 10px;
-text-align: center;
-justify-content: center;
-position: absolute;
-padding: auto;
+.half-width-fotter{
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: none;
+
+
+}
+.btn-fotter{
+    padding: 25px;
+    position: relative;
+    margin: 25px 25px 25px 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    background: rgb(226, 97, 119);
+    border-radius: 8px;
+    color: aliceblue;
+}
+.btn-fotter-email{
+    position: absolute;
+    text-decoration: none;
+    color: rgb(16, 100, 174);
+    text-align: center;
+}
+#pf{
+    color:rgb(97, 94, 94);
+    font-size: 15px;
+    font-family: arial;
+}
+.half-width-fotter-2{
+   justify-content: center;
+   text-align: center;
+   margin-top: 300px;
+
 }
 
 
