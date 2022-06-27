@@ -55,6 +55,7 @@ p{
     width: 100%;
     height: auto;
 }
+
 .btn{
     border: 1px solid;
     text-decoration: none;
@@ -63,75 +64,73 @@ p{
     background-image: linear-gradient(30deg, rgb(236, 25, 232), rgb(237, 15, 85));
     color: aliceblue;
 }
+/*--} --*/
 
-.work-head{
+
+.client-header{
     text-align: center;
 }
-.work-head5{
+.client-name{
     text-align: center;
     font-size: 16px;
 }
-.work-head1{
+.client-post{
     text-align: center;
     color: gray;
 }
-.work-head-p{
+.client-details{
     text-align: center;
     color: black;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1rem;
     justify-content: center;
 }
-.half-widt a{
-    width: 100%;
-    height: auto;
-    padding: 30px;
-}
 
-.btn-email{
-    text-decoration: none;
-    color:aliceblue;
-    border: 1px solid;
-    background-color: hotpink;
-   
-    font-size: 19px;
-    position: relative;
-}
-.half-width-fotter{
-    box-sizing: border-box;
-    text-align: center;
-    margin-top: none;
-
-
-}
-.btn-fotter{
-    padding: 25px;
-    position: relative;
-    margin: 25px 25px 25px 25px;
-    padding-left: 25px;
-    padding-right: 25px;
-    text-align: center;
-    background: rgb(226, 97, 119);
-    border-radius: 8px;
-    color: aliceblue;
-}
-.btn-fotter-email{
-    position: absolute;
-    text-decoration: none;
-    color: rgb(16, 100, 174);
-    text-align: center;
-}
 #pf{
     color:rgb(97, 94, 94);
     font-size: 15px;
     font-family: arial;
+    justify-content:flex-end;
 }
+.half-width-fotter{
+    
+    margin-top: 20px;
+ }
 .half-width-fotter-2{
    justify-content: center;
    text-align: center;
-   margin-top: 300px;
-
+   margin-top: 25%;
 }
 
+.section-fotter{
+    height: 700px;
+    font-family: Arial, sans-serif;
+}
+.leave{
+    text-align: center;
+    border: 1px solid;
+    text-decoration: none;
+    width:200px;
+    margin-left: 40% ;
+    margin-top: 2%;
+   
+    padding: 13px;
+    box-sizing: 10px;
+    background-color: palevioletred;
+    border-radius: 4px;
+    justify-content: center;
+}
+.btn-fotter-message{
+    text-decoration: none;
+    font-size: 10px;
+    color:rgb(241, 232, 232);
+
+}
+.btn-fotter-email{
+    text-decoration: none;
+    color:aliceblue;
+    font-size:15px;
+
+}
 
 
